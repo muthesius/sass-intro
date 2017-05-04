@@ -1,0 +1,27 @@
+$text-color: #333;
+$font-stack: Helvitca,
+sans-serif;
+
+/* ------- */
+
+html {
+  font-family: $font-stack;
+}
+
+body {
+  > * {
+    margin-top: 0;
+  }
+  max-width: 80%;
+  margin: 2em auto;
+}
+
+
+/* ----- */
+p {
+  color: $text-color;
+}
+
+a {
+  color: lighten($text-color, 20%);
+}
